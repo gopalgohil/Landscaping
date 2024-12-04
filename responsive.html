@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        background-color: aqua;
+    }
+    .container{
+        background-color: black;
+        color: aliceblue;
+        padding: 20px;
+        margin: 20px;
+        display: flex;
+    }
+    @media only screen and (max-width: 600px) {
+        h1{
+            background-color: red;
+        }
+        .container{
+            background-color: black;
+            color: aliceblue;
+            padding: 20px;
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .box{
+        border: solid 2px black;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    }
+</style>
+<body>
+    <h1>
+        hello
+    </h1>
+
+    <div class="container">
+        <img src="./imges/latest-news_img-1.jpeg" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, veritatis obcaecati. Quod enim optio similique perferendis facilis temporibus voluptas repellat praesentium voluptatibus quidem tempore, beatae delectus facere ab neque deleniti.
+        Dolor dolores quis quisquam! Quia dolores velit animi reiciendis quas consequuntur natus, repellat omnis et sapiente amet facilis repudiandae corporis sit esse asperiores nisi voluptas eligendi assumenda? Incidunt, rem provident.
+        Numquam sapiente dolor neque totam explicabo ab vitae sed eveniet sunt, dolorem veritatis dolorum commodi rerum qui officiis! Vel impedit corrupti neque dolores officia. Eligendi dicta quibusdam unde consectetur necessitatibus!</p>
+    </div>
+
+    <button id="btn">click</button>
+    <button onclick="myFunction()" id="btn2" >onClick Date</button>
+    <h1 id="demo"></h1>
+    <div class="box">
+
+    </div>
+    <button id="on">On</button>
+    <h1  id="demo-2">JavaScript can hide HTML elements</h1>
+    <button id="hide" onclick="hide()">Hide elements</button>
+    <script src="first.js"></script>
+</body>
+</html>
